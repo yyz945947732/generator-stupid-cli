@@ -13,7 +13,7 @@ const helpText = `<%= projectName %> v${pkg.version}
   -h --help              Print this help
   -v --version           Print <%= projectName %> version number
 
-For more details, please see https://github.com/<%= userName %>/<%= projectName %>`;
+For more details, please see https://github.com/<%= username %>/<%= projectName %>`;
 
 // eslint-disable-next-line no-console
 const version = () => console.log(`v${pkg.version}`);
