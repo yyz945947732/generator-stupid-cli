@@ -2,9 +2,16 @@
 
 > generating a tiny cli project
 
+## Features
+
+generating a tiny cli project support:
+
+- [update-notifier](https://www.npmjs.com/package/update-notifier)
+- 🦌 [yargs-parser](https://www.npmjs.com/package/yargs-parser)
+
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-stupid using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-stupid-cli using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo generator-stupid-cli
