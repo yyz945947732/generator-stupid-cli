@@ -1,6 +1,6 @@
 {
   "name": "<%- projectName %>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<%- description %>",
   "homepage": "https://github.com/<%- username %>/<%- projectName %>",
   "scripts": {
