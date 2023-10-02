@@ -1,0 +1,38 @@
+{
+  "name": "<%- projectName %>",
+  "version": "1.0.0",
+  "description": "<%- description %>",
+  "homepage": "https://github.com/<%- username %>/<%- projectName %>",
+  "scripts": {
+    "test": "vitest",
+    "lint": "biome check --apply-unsafe ./src && biome format --write ./src",
+    "build": "tsup --config tsup.config.ts"
+  },
+  "bin": {
+    "<%- commandName %>": "./bin/index.js"
+  },
+  "type": "module",
+  "author": "<%- username %> <<%- email %>>",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/<%- username %>/<%- projectName %>/issues",
+    "email": "<%- email %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<%- username %>/<%- projectName %>.git"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "update-notifier": "^6.0.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1"
+  }
+}
