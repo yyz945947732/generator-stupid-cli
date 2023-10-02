@@ -6,8 +6,8 @@
 
 generating a tiny cli project support:
 
-- [update-notifier](https://www.npmjs.com/package/update-notifier)
-- 🦌 [yargs-parser](https://www.npmjs.com/package/yargs-parser)
+- Automatically detect version updates.
+- Command line parameter parsing out of box.
 
 ## Installation
 
