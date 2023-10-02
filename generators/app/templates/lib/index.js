@@ -15,10 +15,8 @@ const helpText = `<%= projectName %> v${pkg.version}
 
 For more details, please see https://github.com/<%= username %>/<%= projectName %>`;
 
-// eslint-disable-next-line no-console
 const version = () => console.log(`v${pkg.version}`);
 
-// eslint-disable-next-line no-console
 const help = () => console.log(helpText);
 
 async function cli(options) {
