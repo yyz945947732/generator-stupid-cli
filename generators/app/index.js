@@ -87,7 +87,11 @@ module.exports = class extends Generator {
       ".editorconfig"
     ];
     folders.forEach(folder =>
-      this.fs.copy(this.templatePath(folder), this.destinationPath(folder))
+      this.fs.copyTpl(
+        this.templatePath(folder),
+        this.destinationPath(folder),
+        this.props
+      )
     );
     files.forEach(file =>
       this.fs.copyTpl(
