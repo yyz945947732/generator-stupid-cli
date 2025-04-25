@@ -36,19 +36,6 @@ describe("tiny-cli:app", () => {
     assert.fileContent("README.md", "# tiny-cli");
     assert.fileContent("README.md", "npm install --global tiny-cli");
     assert.fileContent("README.md", "https://www.npmjs.com/package/tiny-cli");
-    assert.fileContent("README.md", "$ tiny --help");
-    assert.fileContent(
-      "README.md",
-      "https://coveralls.io/github/yyz945947732/tiny-cli?branch=master"
-    );
-    assert.fileContent(
-      "README.md",
-      "https://github.com/yyz945947732/tiny-cli/pulls"
-    );
-    assert.fileContent(
-      "README.md",
-      "https://github.com/yyz945947732/tiny-cli/blob/master/LICENSE"
-    );
   });
 
   it("fills the LICENSE with project data", () => {

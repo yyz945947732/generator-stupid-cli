@@ -1,5 +1,23 @@
 # <%= projectName %>
 
+<p>
+  <a href="https://www.npmjs.com/package/<%= projectName %>">
+    <img src="https://img.shields.io/npm/v/<%= projectName %>.svg" alt="Version" />
+  </a>
+  <a href="https://github.com/yyz945947732/<%= projectName %>/pulls">
+    <img
+      src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"
+      alt="PRs Welcome"
+    />
+  </a>
+  <a href="/LICENSE.md">
+    <img
+      src="https://img.shields.io/badge/license-MIT-blue.svg"
+      alt="GitHub license"
+    />
+  </a>
+</p>
+
 > <%- description %>
 
 ## Install
@@ -10,18 +28,15 @@ npm install --global <%= projectName %>
 
 ## Usage
 
-```txt
-$ <%= commandName %> --help
+```bash
+npx <%= commandName %> [options]
+```
 
-  Usage
-    $ <%= commandName %> [options]
+### Options
 
-  Options
-    -h --help              Print this help
-    -v --version           Print <%= projectName %> version number
-
-  Examples
-    $ <%= commandName %> -v
+```bash
+-h --help              Print this help
+-v --version           Print git-clean-branches version number
 ```
 
 ## LICENSE
