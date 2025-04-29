@@ -36,7 +36,7 @@ npx <%= commandName %> [options]
 
 ```bash
 -h --help              Print this help
--v --version           Print git-clean-branches version number
+-v --version           Print <%= projectName %> version number
 ```
 
 ## LICENSE
